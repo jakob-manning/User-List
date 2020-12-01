@@ -1,0 +1,26 @@
+.Icon{
+    width: 32px;
+    border-radius: 100px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.Man{
+    border: 2px solid dodgerblue;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.Woman{
+    border: 2px solid rebeccapurple;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.Right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
