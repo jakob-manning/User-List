@@ -1,10 +1,6 @@
 import React from 'react'
-import USFlag from "../../assets/images/flag-round-250.png";
-import ManIcon from "../../assets/images/manEmoji.png"
-import WomanIcon from "../../assets/images/womanEmoji.png"
 import classes from './UserListItem.module.css'
 import Button from "../Button/Button";
-import Icon from "../Icon/Icon";
 import UserImage from "../userImage/UserImage";
 
 const UserListItem = (props) => {

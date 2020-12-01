@@ -8,9 +8,9 @@ import USFlag from "../../assets/images/flag-round-250.png";
 
 const UserImage = (props) => (
         <div className={classes.Container}>
-            {props.gender==="male" ? <Icon source={ManIcon} style={"Man"} /> : <Icon source={WomanIcon} style={"Woman"}/>}
+            {props.gender==="male" ? <Icon source={ManIcon} type={"Man"} /> : <Icon source={WomanIcon} type={"Woman"}/>}
             <img src={props.source} alt={"profile of " + props.name} />
-            {props.country==="United States" && <Icon alt={"US Flag"} source={USFlag} style={"Right"} />}
+            {props.country==="United States" && <Icon alt={"US Flag"} source={USFlag} type={"Flag"} />}
         </div>
 )
 
